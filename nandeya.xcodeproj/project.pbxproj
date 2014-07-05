@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBBA4A171968645C00E93AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A161968645C00E93AFD /* Foundation.framework */; };
+		CBBA4A191968645C00E93AFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A181968645C00E93AFD /* CoreGraphics.framework */; };
+		CBBA4A1B1968645C00E93AFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A1A1968645C00E93AFD /* UIKit.framework */; };
+		CBBA4A211968645C00E93AFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A1F1968645C00E93AFD /* InfoPlist.strings */; };
+		CBBA4A231968645C00E93AFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A221968645C00E93AFD /* main.m */; };
+		CBBA4A271968645C00E93AFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A261968645C00E93AFD /* AppDelegate.m */; };
+		CBBA4A2A1968645C00E93AFD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A281968645C00E93AFD /* Main_iPhone.storyboard */; };
+		CBBA4A2D1968645C00E93AFD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A2B1968645C00E93AFD /* Main_iPad.storyboard */; };
+		CBBA4A301968645C00E93AFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A2F1968645C00E93AFD /* ViewController.m */; };
+		CBBA4A321968645C00E93AFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A311968645C00E93AFD /* Images.xcassets */; };
+		CBBA4A391968645D00E93AFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A381968645D00E93AFD /* XCTest.framework */; };
+		CBBA4A3A1968645D00E93AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A161968645C00E93AFD /* Foundation.framework */; };
+		CBBA4A3B1968645D00E93AFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A1A1968645C00E93AFD /* UIKit.framework */; };
+		CBBA4A431968645D00E93AFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A411968645D00E93AFD /* InfoPlist.strings */; };
+		CBBA4A451968645D00E93AFD /* nandeyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A441968645D00E93AFD /* nandeyaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBBA4A3C1968645D00E93AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBBA4A0B1968645C00E93AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBBA4A121968645C00E93AFD;
+			remoteInfo = nandeya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBBA4A131968645C00E93AFD /* nandeya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nandeya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBA4A161968645C00E93AFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBBA4A181968645C00E93AFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBBA4A1A1968645C00E93AFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBBA4A1E1968645C00E93AFD /* nandeya-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nandeya-Info.plist"; sourceTree = "<group>"; };
+		CBBA4A201968645C00E93AFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBBA4A221968645C00E93AFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBBA4A241968645C00E93AFD /* nandeya-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nandeya-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA4A251968645C00E93AFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBBA4A261968645C00E93AFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBBA4A291968645C00E93AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CBBA4A2C1968645C00E93AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CBBA4A2E1968645C00E93AFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBBA4A2F1968645C00E93AFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBBA4A311968645C00E93AFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBBA4A371968645D00E93AFD /* nandeyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nandeyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBA4A381968645D00E93AFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBBA4A401968645D00E93AFD /* nandeyaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nandeyaTests-Info.plist"; sourceTree = "<group>"; };
+		CBBA4A421968645D00E93AFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBBA4A441968645D00E93AFD /* nandeyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nandeyaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBBA4A101968645C00E93AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A191968645C00E93AFD /* CoreGraphics.framework in Frameworks */,
+				CBBA4A1B1968645C00E93AFD /* UIKit.framework in Frameworks */,
+				CBBA4A171968645C00E93AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBA4A341968645D00E93AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A391968645D00E93AFD /* XCTest.framework in Frameworks */,
+				CBBA4A3B1968645D00E93AFD /* UIKit.framework in Frameworks */,
+				CBBA4A3A1968645D00E93AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBBA4A0A1968645C00E93AFD = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A1C1968645C00E93AFD /* nandeya */,
+				CBBA4A3E1968645D00E93AFD /* nandeyaTests */,
+				CBBA4A151968645C00E93AFD /* Frameworks */,
+				CBBA4A141968645C00E93AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBBA4A141968645C00E93AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A131968645C00E93AFD /* nandeya.app */,
+				CBBA4A371968645D00E93AFD /* nandeyaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBBA4A151968645C00E93AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A161968645C00E93AFD /* Foundation.framework */,
+				CBBA4A181968645C00E93AFD /* CoreGraphics.framework */,
+				CBBA4A1A1968645C00E93AFD /* UIKit.framework */,
+				CBBA4A381968645D00E93AFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBBA4A1C1968645C00E93AFD /* nandeya */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A251968645C00E93AFD /* AppDelegate.h */,
+				CBBA4A261968645C00E93AFD /* AppDelegate.m */,
+				CBBA4A281968645C00E93AFD /* Main_iPhone.storyboard */,
+				CBBA4A2B1968645C00E93AFD /* Main_iPad.storyboard */,
+				CBBA4A2E1968645C00E93AFD /* ViewController.h */,
+				CBBA4A2F1968645C00E93AFD /* ViewController.m */,
+				CBBA4A311968645C00E93AFD /* Images.xcassets */,
+				CBBA4A1D1968645C00E93AFD /* Supporting Files */,
+			);
+			path = nandeya;
+			sourceTree = "<group>";
+		};
+		CBBA4A1D1968645C00E93AFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A1E1968645C00E93AFD /* nandeya-Info.plist */,
+				CBBA4A1F1968645C00E93AFD /* InfoPlist.strings */,
+				CBBA4A221968645C00E93AFD /* main.m */,
+				CBBA4A241968645C00E93AFD /* nandeya-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBBA4A3E1968645D00E93AFD /* nandeyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A441968645D00E93AFD /* nandeyaTests.m */,
+				CBBA4A3F1968645D00E93AFD /* Supporting Files */,
+			);
+			path = nandeyaTests;
+			sourceTree = "<group>";
+		};
+		CBBA4A3F1968645D00E93AFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A401968645D00E93AFD /* nandeyaTests-Info.plist */,
+				CBBA4A411968645D00E93AFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBBA4A121968645C00E93AFD /* nandeya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBA4A481968645D00E93AFD /* Build configuration list for PBXNativeTarget "nandeya" */;
+			buildPhases = (
+				CBBA4A0F1968645C00E93AFD /* Sources */,
+				CBBA4A101968645C00E93AFD /* Frameworks */,
+				CBBA4A111968645C00E93AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nandeya;
+			productName = nandeya;
+			productReference = CBBA4A131968645C00E93AFD /* nandeya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBBA4A361968645D00E93AFD /* nandeyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBA4A4B1968645D00E93AFD /* Build configuration list for PBXNativeTarget "nandeyaTests" */;
+			buildPhases = (
+				CBBA4A331968645D00E93AFD /* Sources */,
+				CBBA4A341968645D00E93AFD /* Frameworks */,
+				CBBA4A351968645D00E93AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBBA4A3D1968645D00E93AFD /* PBXTargetDependency */,
+			);
+			name = nandeyaTests;
+			productName = nandeyaTests;
+			productReference = CBBA4A371968645D00E93AFD /* nandeyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBBA4A0B1968645C00E93AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Keichi Takahashi";
+				TargetAttributes = {
+					CBBA4A361968645D00E93AFD = {
+						TestTargetID = CBBA4A121968645C00E93AFD;
+					};
+				};
+			};
+			buildConfigurationList = CBBA4A0E1968645C00E93AFD /* Build configuration list for PBXProject "nandeya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBBA4A0A1968645C00E93AFD;
+			productRefGroup = CBBA4A141968645C00E93AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBBA4A121968645C00E93AFD /* nandeya */,
+				CBBA4A361968645D00E93AFD /* nandeyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBBA4A111968645C00E93AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A2D1968645C00E93AFD /* Main_iPad.storyboard in Resources */,
+				CBBA4A321968645C00E93AFD /* Images.xcassets in Resources */,
+				CBBA4A2A1968645C00E93AFD /* Main_iPhone.storyboard in Resources */,
+				CBBA4A211968645C00E93AFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBA4A351968645D00E93AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A431968645D00E93AFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBBA4A0F1968645C00E93AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A301968645C00E93AFD /* ViewController.m in Sources */,
+				CBBA4A271968645C00E93AFD /* AppDelegate.m in Sources */,
+				CBBA4A231968645C00E93AFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBA4A331968645D00E93AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA4A451968645D00E93AFD /* nandeyaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBBA4A3D1968645D00E93AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBBA4A121968645C00E93AFD /* nandeya */;
+			targetProxy = CBBA4A3C1968645D00E93AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBBA4A1F1968645C00E93AFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA4A201968645C00E93AFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBBA4A281968645C00E93AFD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA4A291968645C00E93AFD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CBBA4A2B1968645C00E93AFD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA4A2C1968645C00E93AFD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CBBA4A411968645D00E93AFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA4A421968645D00E93AFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBBA4A461968645D00E93AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBBA4A471968645D00E93AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBBA4A491968645D00E93AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nandeya/nandeya-Prefix.pch";
+				INFOPLIST_FILE = "nandeya/nandeya-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBBA4A4A1968645D00E93AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nandeya/nandeya-Prefix.pch";
+				INFOPLIST_FILE = "nandeya/nandeya-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBBA4A4C1968645D00E93AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nandeya.app/nandeya";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nandeya/nandeya-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nandeyaTests/nandeyaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBBA4A4D1968645D00E93AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nandeya.app/nandeya";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nandeya/nandeya-Prefix.pch";
+				INFOPLIST_FILE = "nandeyaTests/nandeyaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBBA4A0E1968645C00E93AFD /* Build configuration list for PBXProject "nandeya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA4A461968645D00E93AFD /* Debug */,
+				CBBA4A471968645D00E93AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBA4A481968645D00E93AFD /* Build configuration list for PBXNativeTarget "nandeya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA4A491968645D00E93AFD /* Debug */,
+				CBBA4A4A1968645D00E93AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBBA4A4B1968645D00E93AFD /* Build configuration list for PBXNativeTarget "nandeyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA4A4C1968645D00E93AFD /* Debug */,
+				CBBA4A4D1968645D00E93AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBBA4A0B1968645C00E93AFD /* Project object */;
+}
