@@ -7,7 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CoreMotion/CoreMotion.h>
+#import "SocketIO.h"
 
-@interface ViewController : UIViewController
+#define THRESHOLD (0.3)
+#define LENGTH (15)
+
+
+@interface ViewController : UIViewController<SocketIODelegate>
+{
+    SocketIO *socketIO;
+    AVAudioPlayer *testsound1;
+    AVAudioPlayer *testsound2;
+    AVAudioPlayer *testsound3;
+    AVAudioPlayer *testsound4;
+    AVAudioPlayer *testsound5;
+    
+    NSMutableArray *zs;
+	NSDate *start;
+    NSDate *end;
+	int nowState;
+	float samplingtime;
+	float prevVelocity;
+	float velocity;
+    
+    CMMotionManager *motionManager;
+}
 
 @end

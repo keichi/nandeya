@@ -22,6 +22,23 @@
 		CBBA4A3B1968645D00E93AFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A1A1968645C00E93AFD /* UIKit.framework */; };
 		CBBA4A431968645D00E93AFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A411968645D00E93AFD /* InfoPlist.strings */; };
 		CBBA4A451968645D00E93AFD /* nandeyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A441968645D00E93AFD /* nandeyaTests.m */; };
+		CBBA4A5A1968785700E93AFD /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A501968785700E93AFD /* SocketIO.m */; };
+		CBBA4A5B1968785700E93AFD /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A521968785700E93AFD /* SocketIOJSONSerialization.m */; };
+		CBBA4A5C1968785700E93AFD /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A541968785700E93AFD /* SocketIOPacket.m */; };
+		CBBA4A5D1968785700E93AFD /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A571968785700E93AFD /* SocketIOTransportWebsocket.m */; };
+		CBBA4A5E1968785700E93AFD /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A591968785700E93AFD /* SocketIOTransportXHR.m */; };
+		CBBA4A6219687AA700E93AFD /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA4A6119687AA700E93AFD /* SRWebSocket.m */; };
+		CBBA4A6419687B0000E93AFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A6319687B0000E93AFD /* CFNetwork.framework */; };
+		CBBA4A6619687B0600E93AFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A6519687B0600E93AFD /* Security.framework */; };
+		CBBA4A6819687B1000E93AFD /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A6719687B1000E93AFD /* libicucore.dylib */; };
+		CBBA4A6C196887F700E93AFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A6B196887F700E93AFD /* AVFoundation.framework */; };
+		CBBA4A6E19688B3400E93AFD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA4A6D19688B3400E93AFD /* CoreMotion.framework */; };
+		CBBA4A741968922A00E93AFD /* nande1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A6F1968922A00E93AFD /* nande1.mp3 */; };
+		CBBA4A751968922A00E93AFD /* nande2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A701968922A00E93AFD /* nande2.mp3 */; };
+		CBBA4A761968922A00E93AFD /* nande3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A711968922A00E93AFD /* nande3.mp3 */; };
+		CBBA4A771968922A00E93AFD /* nande4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A721968922A00E93AFD /* nande4.mp3 */; };
+		CBBA4A781968922A00E93AFD /* nande5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A731968922A00E93AFD /* nande5.mp3 */; };
+		CBBA4A7A196898D000E93AFD /* te.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBA4A79196898D000E93AFD /* te.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +72,31 @@
 		CBBA4A401968645D00E93AFD /* nandeyaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nandeyaTests-Info.plist"; sourceTree = "<group>"; };
 		CBBA4A421968645D00E93AFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBBA4A441968645D00E93AFD /* nandeyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nandeyaTests.m; sourceTree = "<group>"; };
+		CBBA4A4F1968785700E93AFD /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		CBBA4A501968785700E93AFD /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+		CBBA4A511968785700E93AFD /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		CBBA4A521968785700E93AFD /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = "<group>"; };
+		CBBA4A531968785700E93AFD /* SocketIOPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOPacket.h; sourceTree = "<group>"; };
+		CBBA4A541968785700E93AFD /* SocketIOPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOPacket.m; sourceTree = "<group>"; };
+		CBBA4A551968785700E93AFD /* SocketIOTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransport.h; sourceTree = "<group>"; };
+		CBBA4A561968785700E93AFD /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportWebsocket.h; sourceTree = "<group>"; };
+		CBBA4A571968785700E93AFD /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportWebsocket.m; sourceTree = "<group>"; };
+		CBBA4A581968785700E93AFD /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportXHR.h; sourceTree = "<group>"; };
+		CBBA4A591968785700E93AFD /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportXHR.m; sourceTree = "<group>"; };
+		CBBA4A5F19687AA700E93AFD /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA4A6019687AA700E93AFD /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		CBBA4A6119687AA700E93AFD /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		CBBA4A6319687B0000E93AFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CBBA4A6519687B0600E93AFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CBBA4A6719687B1000E93AFD /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		CBBA4A6B196887F700E93AFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CBBA4A6D19688B3400E93AFD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CBBA4A6F1968922A00E93AFD /* nande1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nande1.mp3; sourceTree = "<group>"; };
+		CBBA4A701968922A00E93AFD /* nande2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nande2.mp3; sourceTree = "<group>"; };
+		CBBA4A711968922A00E93AFD /* nande3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nande3.mp3; sourceTree = "<group>"; };
+		CBBA4A721968922A00E93AFD /* nande4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nande4.mp3; sourceTree = "<group>"; };
+		CBBA4A731968922A00E93AFD /* nande5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nande5.mp3; sourceTree = "<group>"; };
+		CBBA4A79196898D000E93AFD /* te.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = te.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBA4A6E19688B3400E93AFD /* CoreMotion.framework in Frameworks */,
+				CBBA4A6C196887F700E93AFD /* AVFoundation.framework in Frameworks */,
+				CBBA4A6819687B1000E93AFD /* libicucore.dylib in Frameworks */,
+				CBBA4A6619687B0600E93AFD /* Security.framework in Frameworks */,
+				CBBA4A6419687B0000E93AFD /* CFNetwork.framework in Frameworks */,
 				CBBA4A191968645C00E93AFD /* CoreGraphics.framework in Frameworks */,
 				CBBA4A1B1968645C00E93AFD /* UIKit.framework in Frameworks */,
 				CBBA4A171968645C00E93AFD /* Foundation.framework in Frameworks */,
@@ -103,6 +150,11 @@
 		CBBA4A151968645C00E93AFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBBA4A6D19688B3400E93AFD /* CoreMotion.framework */,
+				CBBA4A6B196887F700E93AFD /* AVFoundation.framework */,
+				CBBA4A6719687B1000E93AFD /* libicucore.dylib */,
+				CBBA4A6519687B0600E93AFD /* Security.framework */,
+				CBBA4A6319687B0000E93AFD /* CFNetwork.framework */,
 				CBBA4A161968645C00E93AFD /* Foundation.framework */,
 				CBBA4A181968645C00E93AFD /* CoreGraphics.framework */,
 				CBBA4A1A1968645C00E93AFD /* UIKit.framework */,
@@ -114,12 +166,19 @@
 		CBBA4A1C1968645C00E93AFD /* nandeya */ = {
 			isa = PBXGroup;
 			children = (
+				CBBA4A4E1968784600E93AFD /* SocketIO */,
 				CBBA4A251968645C00E93AFD /* AppDelegate.h */,
 				CBBA4A261968645C00E93AFD /* AppDelegate.m */,
 				CBBA4A281968645C00E93AFD /* Main_iPhone.storyboard */,
 				CBBA4A2B1968645C00E93AFD /* Main_iPad.storyboard */,
 				CBBA4A2E1968645C00E93AFD /* ViewController.h */,
 				CBBA4A2F1968645C00E93AFD /* ViewController.m */,
+				CBBA4A6F1968922A00E93AFD /* nande1.mp3 */,
+				CBBA4A701968922A00E93AFD /* nande2.mp3 */,
+				CBBA4A711968922A00E93AFD /* nande3.mp3 */,
+				CBBA4A721968922A00E93AFD /* nande4.mp3 */,
+				CBBA4A731968922A00E93AFD /* nande5.mp3 */,
+				CBBA4A79196898D000E93AFD /* te.png */,
 				CBBA4A311968645C00E93AFD /* Images.xcassets */,
 				CBBA4A1D1968645C00E93AFD /* Supporting Files */,
 			);
@@ -153,6 +212,27 @@
 				CBBA4A411968645D00E93AFD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBBA4A4E1968784600E93AFD /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA4A5F19687AA700E93AFD /* SocketRocket-Prefix.pch */,
+				CBBA4A6019687AA700E93AFD /* SRWebSocket.h */,
+				CBBA4A6119687AA700E93AFD /* SRWebSocket.m */,
+				CBBA4A4F1968785700E93AFD /* SocketIO.h */,
+				CBBA4A501968785700E93AFD /* SocketIO.m */,
+				CBBA4A511968785700E93AFD /* SocketIOJSONSerialization.h */,
+				CBBA4A521968785700E93AFD /* SocketIOJSONSerialization.m */,
+				CBBA4A531968785700E93AFD /* SocketIOPacket.h */,
+				CBBA4A541968785700E93AFD /* SocketIOPacket.m */,
+				CBBA4A551968785700E93AFD /* SocketIOTransport.h */,
+				CBBA4A561968785700E93AFD /* SocketIOTransportWebsocket.h */,
+				CBBA4A571968785700E93AFD /* SocketIOTransportWebsocket.m */,
+				CBBA4A581968785700E93AFD /* SocketIOTransportXHR.h */,
+				CBBA4A591968785700E93AFD /* SocketIOTransportXHR.m */,
+			);
+			name = SocketIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +311,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBA4A7A196898D000E93AFD /* te.png in Resources */,
 				CBBA4A2D1968645C00E93AFD /* Main_iPad.storyboard in Resources */,
+				CBBA4A781968922A00E93AFD /* nande5.mp3 in Resources */,
+				CBBA4A761968922A00E93AFD /* nande3.mp3 in Resources */,
 				CBBA4A321968645C00E93AFD /* Images.xcassets in Resources */,
+				CBBA4A751968922A00E93AFD /* nande2.mp3 in Resources */,
 				CBBA4A2A1968645C00E93AFD /* Main_iPhone.storyboard in Resources */,
 				CBBA4A211968645C00E93AFD /* InfoPlist.strings in Resources */,
+				CBBA4A741968922A00E93AFD /* nande1.mp3 in Resources */,
+				CBBA4A771968922A00E93AFD /* nande4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +340,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBA4A301968645C00E93AFD /* ViewController.m in Sources */,
+				CBBA4A5E1968785700E93AFD /* SocketIOTransportXHR.m in Sources */,
+				CBBA4A5D1968785700E93AFD /* SocketIOTransportWebsocket.m in Sources */,
 				CBBA4A271968645C00E93AFD /* AppDelegate.m in Sources */,
+				CBBA4A5C1968785700E93AFD /* SocketIOPacket.m in Sources */,
+				CBBA4A5B1968785700E93AFD /* SocketIOJSONSerialization.m in Sources */,
+				CBBA4A6219687AA700E93AFD /* SRWebSocket.m in Sources */,
+				CBBA4A5A1968785700E93AFD /* SocketIO.m in Sources */,
 				CBBA4A231968645C00E93AFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
